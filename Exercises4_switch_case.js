@@ -9,48 +9,47 @@ expected result : 1 Januari 1945
 var tanggal = 1;
 var bulan = 1;
 var tahun = 1945;
-var namaBulan = '';
 
 switch (bulan) {
     case 1:
-        namaBulan = 'Januari';
+        bulan = 'Januari';
         break;
     case 2:
-        namaBulan = 'Februari';
+        bulan = 'Februari';
         break;
     case 3:
-        namaBulan = 'Maret';
+        bulan = 'Maret';
         break;
     case 4:
-        namaBulan = 'April';
+        bulan = 'April';
         break;
     case 5:
-        namaBulan = 'Mei';
+        bulan = 'Mei';
         break;
     case 6:
-        namaBulan = 'Juni';
+        bulan = 'Juni';
         break;
     case 7:
-        namaBulan = 'Juli';
+        bulan = 'Juli';
         break;
     case 8:
-        namaBulan = 'Agustus';
+        bulan = 'Agustus';
         break;
     case 9:
-        namaBulan = 'September';
+        bulan = 'September';
         break;
     case 10:
-        namaBulan = 'Oktober';
+        bulan = 'Oktober';
         break;
     case 11:
-        namaBulan = 'November';
+        bulan = 'November';
         break;
     case 12:
-        namaBulan = 'Desember';
+        bulan = 'Desember';
         break;
     default:
         console.log('Masukan format tanggal yg benar!');
         break;
 }
 
-console.log (tanggal + ' ' + namaBulan + ' ' + tahun);
+console.log(tanggal + ' ' + bulan + ' ' + tahun);
