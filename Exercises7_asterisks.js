@@ -41,7 +41,7 @@ var asteriks1 = '';
 // do loops to display asterisks in the console
 while (counter4 < row3) {
   counter4 = counter4 + 1;
-  while (counter5 < counter4){
+  while (counter5 < counter4) {
     asteriks1 = asteriks1 + '*'
     counter5 = counter5 + 1
   }
