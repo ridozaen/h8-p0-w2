@@ -1,0 +1,58 @@
+1. Newton Second Law
+------------------
+STORES "resultan" without any value
+STORES "massa" with 600
+STORES "percepatan" with 2
+
+CALCULATE "massa" times "height"
+SET "resultan" value with calculation result
+
+DISPLAY "resultan"
+
+2. Tahun Kabisat
+---------------
+STORES "tahun" with any value
+
+IF  "tahun" MODULO 4 equals to 0 THEN
+    IF ("tahun" MODULO 100 equals to 0)
+        IF ("tahun" MODULO 400 equals to 0) THEN
+            DISPLAY "Ini Tahun Kabisat"
+        ELSE
+            DISPLAY "Ini Bukan Tahun Kabisat"
+        END IF
+    ELSE
+        DISPLAY "Ini Tahun Kabisat"
+    END IF
+ELSE
+   DISPLAY "Ini Bukan Tahun Kabisat"
+END IF
+
+
+3. Laundry Day
+---------------
+STORES "count" with 0
+
+WHILE "count" < 20 
+    ADD "count" by 1
+    DISPLAY 'Jumlah Pakaian = "count" '
+END WHILE
+
+DISPLAY "MESIN CUCI MENYALA!" 
+
+4. Periksa Kuku
+---------------
+
+STORES "kuku" without any value
+STORES "counter" with 0
+
+WHILE "counter" < 40
+    ADD "counter" by 1
+    INSPECT "kuku" FOR siswa["counter"]
+    IF "kuku" equals to "kuku panjang" THEN
+        DISPLAY "HUKUM SISWA!"
+    ELSE
+        DISPLAY "BERI PUJIAN!"
+    END IF 
+END WHILE
+
+
